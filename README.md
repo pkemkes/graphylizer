@@ -15,6 +15,10 @@ docker build -t graphylizer .
 docker run -p 8080:80 -d graphylizer
 ```
 
+## Demo:
+
+[Try the tool hosted on my server](https://graphylizer.pkemkes.de/)
+
 ## Usage:
 
 "Upload" a file when prompted. All processing is ran in the browser. The content is read and a graph is parsed. 
