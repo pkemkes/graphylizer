@@ -179,7 +179,7 @@ function generateElements(parsedTasks) {
             elements.push({
                 group: "edges",
                 data: {
-                    id: pT.id + otherId,
+                    id: pT.id + "->" + otherId,
                     source: pT.id,
                     target: otherId
                 }
