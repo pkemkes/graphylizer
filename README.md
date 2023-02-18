@@ -2,7 +2,7 @@
 
 ## Setup:
 
-Pull the image from DockerHub and expose port 80:
+Pull the image [from DockerHub](https://hub.docker.com/r/pkemkes/graphylizer) and expose port 80:
 
 ```bash
 docker run -p 8080:80 -d pkemkes/graphylizer
