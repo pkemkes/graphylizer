@@ -79,6 +79,7 @@ var cy = defineGraph();
 function parseToGraph(text) {
     let cleanedText = removeFullLineComments(text);
     let elements = parseGraphElements(cleanedText);
+    cy.elements().remove();
     cy.add(elements);
     renderGraph();
 }
